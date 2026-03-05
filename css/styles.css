@@ -74,3 +74,37 @@
     justify-content: center;
     align-items: center;
 }
+
+#stats {
+    padding: 100px 0;
+    background-color: #ff6b81;
+    color: white;
+}
+.stats-nums {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#pricing {
+    padding: 100px 0;
+}
+.price-btn {
+    display: block;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.price-btn:hover {
+    background-color: #ff6b81;
+}
+.featureslist li {
+    margin-bottom: 10px;
+}
+.featureslist li i {
+    color: #ff6b81;
+    margin-right: 8px;
+}
