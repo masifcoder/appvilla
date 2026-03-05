@@ -4,9 +4,10 @@
     padding: 10px 35px;
     text-decoration: none;
     color: white;
-     font-weight: bold;
+    font-weight: bold;
     font-size: 18px;
 }
+
 .nav-btn:hover {
     background-color: white;
     color: #ff6b81;
@@ -14,15 +15,19 @@
 
 #header {
     background-color: #ff6b81;
+    height: 100vh;
 }
+
 .logo-img {
     width: 135px;
 }
+
 .nav-link {
     color: white;
     font-weight: bold;
     font-size: 18px;
 }
+
 .navbar-nav {
     gap: 20px;
 }
@@ -30,4 +35,42 @@
 .header-left h1 {
     font-size: 50px;
     font-weight: bold;
+}
+
+.app-btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: #ff6b81;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+
+.app-btn:hover {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: 1px solid rgb(15, 15, 15);
+}
+
+#features {
+    padding: 100px 0;
+    background-color: #f1f1f1;
+}
+
+.sec-heading {
+    color: #ff6b81;
+}
+
+.feature-icon {
+    background-color: #ff6b81;
+    width: 65px;
+    height: 65px;
+    color: white;
+    font-size: 24px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
