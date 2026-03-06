@@ -81,7 +81,7 @@
     color: white;
 }
 .stats-nums {
-    width: 800px;
+    /* width: 800px; */
     margin: 0 auto;
 }
 
@@ -107,4 +107,38 @@
 .featureslist li i {
     color: #ff6b81;
     margin-right: 8px;
+}
+
+#last-sec {
+    background-color: #ff6b81;
+    padding: 100px 0;
+}
+
+#footer-sec {
+    padding: 100px 0;
+    background-color: #081828;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
+}
+.footer-list li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-list li a:hover {
+    color: #ff6b81;
+}
+
+.login-form {
+    width: 500px;
+    background-color: #ff6b8175;
+    padding: 30px;
+}
+.login-page {
+    height: 100vh;
+}
+.form-box,
+.login-page .container {
+    height: 100%;
 }
